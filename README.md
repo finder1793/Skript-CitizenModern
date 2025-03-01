@@ -46,8 +46,8 @@ Skript-CitizenModern seamlessly bridges Skript's easy-to-use scripting language 
 
 ## Requirements
 
-- Spigot/Paper 1.8.8+
-- Skript 2.6+
+- Spigot/Paper 1.21+
+- Skript 2.10+
 - Citizens 2.0.30+
 
 ## Installation
