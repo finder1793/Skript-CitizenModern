@@ -1,0 +1,29 @@
+# Gradle files
+.gradle/
+build/
+
+# Gradle Wrapper files
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
+````
+
+This `.gitignore` file will ignore all excess Gradle files, temporary files, IDE-specific files, and OS-generated files.

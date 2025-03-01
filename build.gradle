@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group 'net.pwing'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://repo.codemc.org/repository/maven-public/'
+    }
+    maven {
+        url 'https://repo.papermc.io/repository/maven-public/'
+    }
+    maven {
+        url 'https://maven.citizensnpcs.co/repo'
+    }
+    maven {
+        url 'https://repo.skriptlang.org/releases/'
+    }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT'
+    compileOnly 'com.github.SkriptLang:Skript:2.10.0'
+    compileOnly 'net.citizensnpcs:citizens-main:2.0.37-SNAPSHOT'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
